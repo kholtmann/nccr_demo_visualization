@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>nccr_demo_visualization</name>
+  <version>0.1.0</version>
+  <description>Rviz configs and launch files for NCCR demo days.</description>
+  <maintainer email="marcot@ethz.ch">Marco Tranzatto</maintainer>
+  <maintainer email="kaiho@ethz.ch">Kai Holtmann</maintainer>
+  <license>BSD</license>
+  <author email="marcot@ethz.ch">Marco Tranzatto</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>navigation_rviz_plugins</depend>
+
+</package>

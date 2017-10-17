@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <!-- start rviz -->
+    <node pkg="rviz" type="rviz" name="anymal_rviz"
+        args="-d $(find nccr_demo_visualization)/config/rviz_anymal.rviz /tf:=/tf_minimal"/>
+
+</launch>
